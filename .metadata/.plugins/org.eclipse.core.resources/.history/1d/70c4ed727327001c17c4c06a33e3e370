@@ -19,7 +19,7 @@ public class TesteSelecao {
 			mensagem ="Categoria juvenil";
 		}else if(idade >= 21 && idade <= 45) {
 			mensagem = "Categoria adulto";
-		}else  {
+		}else if(idade >= 46 && idade <=70) {
 			mensagem = "Categoria Master race";
 		}
 		
