@@ -12,8 +12,8 @@ public class TesteRepeticao2 {
 		String resposta = "sim";
 		String novoNome = "";
 		int novaIdade = 200;
-		int idadeTotal = 0;//somador
-		int numeroPessoas = 0;//contador
+		int idadeTotal = 0;
+		int numeroPessoas = 0;
 		
 		while(resposta.equalsIgnoreCase("sim")) {
 			nome = JOptionPane.showInputDialog("Nome:");
@@ -21,12 +21,12 @@ public class TesteRepeticao2 {
 			idade = Integer.parseInt(sidade);
 			
 			if(idade < novaIdade) {
-				novaIdade = idade;// novaIdade é a idade do 
-				novoNome = nome;//novoNome é o nome do mais novo
+				novaIdade = idade;
+				novoNome = nome;
 			}
 			
-			idadeTotal = idadeTotal + idade;//somador das idades
-			numeroPessoas++;//contador das pessoas
+			idadeTotal = idadeTotal + idade;
+			numeroPessoas++;
 			
 			resposta = JOptionPane.showInputDialog("Tem mais alguém ?");
 			
