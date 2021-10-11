@@ -1,0 +1,10 @@
+package poo10;
+
+public class Calculadora {
+
+	public static double exec(double n1, double n2, String op) {
+		
+		return 0;
+	}
+
+}
