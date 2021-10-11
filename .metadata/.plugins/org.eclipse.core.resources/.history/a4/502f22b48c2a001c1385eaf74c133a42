@@ -1,0 +1,9 @@
+package poo11;
+
+//herdando de funcionario com extends
+public class FuncIntegral extends Funcionario {
+	public FuncIntegral (String nome, String email, double sal) {
+		
+	}
+
+}

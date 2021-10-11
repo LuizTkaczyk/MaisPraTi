@@ -1,0 +1,9 @@
+package poo11;
+
+public class FuncHorista {
+	
+	public FuncHorista(String nome, String email, int qtd, double val) {
+		
+	}
+	
+}

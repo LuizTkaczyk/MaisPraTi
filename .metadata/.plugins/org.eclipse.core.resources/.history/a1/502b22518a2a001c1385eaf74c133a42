@@ -1,0 +1,10 @@
+package poo11;
+
+public class Tela {
+
+	public static String retornaTxt(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

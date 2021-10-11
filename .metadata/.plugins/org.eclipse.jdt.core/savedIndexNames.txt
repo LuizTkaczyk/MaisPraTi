@@ -1,4 +1,3 @@
 INDEX VERSION 1.131+C:\Users\luiz8\Documents\Material de estudo\MaisPraTi\.metadata\.plugins\org.eclipse.jdt.core
 1865797976.index
 1922734130.index
-1378449300.index
