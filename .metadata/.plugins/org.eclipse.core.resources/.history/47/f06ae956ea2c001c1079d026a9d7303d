@@ -1,0 +1,12 @@
+package poo15;
+
+public class TesteExcecao {
+
+	public static void main(String[] args) {
+		//tratando erros de excessão
+		
+		System.out.println("Valor do parametro que foi enviado: " + args[0]);
+
+	}
+
+}

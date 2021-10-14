@@ -1,0 +1,25 @@
+package poo13;
+
+import java.util.ArrayList;
+
+public class Sistema {
+	private static ArrayList<Cliente> dados = new ArrayList<Cliente>();
+
+	public static void cadastrarCliente() {
+		String nome, email, tipo;
+		int idade;
+
+		nome = EntradaSaida.receberString("Nome: ");
+		email = EntradaSaida.receberString("E-mail: ");
+		idade = EntradaSaida.receberInt("Idade :");
+		tipo = EntradaSaida.receberString("C ou V");
+		Cliente cliente;
+		if (tipo.equalsIgnoreCase("V")) {
+			cliente = new ClienteVip(nome, email, idade);
+		} else {
+			cliente = new ClienteComum(nome, email, idade);
+		}
+
+		dados.add(cliente);
+	}
+}

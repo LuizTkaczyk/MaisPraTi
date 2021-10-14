@@ -1,0 +1,20 @@
+package poo13;
+
+public class EntradaSaida {
+
+	public static void mostrarTexto(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static String receberString(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public static int receberInt(String string) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
