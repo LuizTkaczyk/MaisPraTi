@@ -1,0 +1,18 @@
+package datas;
+
+import java.text.DateFormat;
+import java.util.Date;
+
+public class Datas {
+
+	public static void main(String[] args) {
+		Date hoje = new Date();
+		System.out.println(hoje);
+		
+		DateFormat fmt = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+		System.out.println(fmt.format(hoje));
+		
+
+	}
+
+}

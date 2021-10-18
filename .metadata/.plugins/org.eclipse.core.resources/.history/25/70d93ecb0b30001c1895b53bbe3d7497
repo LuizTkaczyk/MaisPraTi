@@ -1,0 +1,15 @@
+package extrasDetalhes6;
+
+public class TesteArrayList {
+
+	public static void main(String[] args) {
+		Aluno[] vetorAluno = new Aluno[3];
+		vetorAluno[0] = new Aluno("Luiz", 32, "luiz@luiz.com");
+		vetorAluno[1] = new Aluno("Ana", 39, "ANA@luiz.com");
+		vetorAluno[2] = new Aluno("Maria", 92, "maria@luiz.com");
+		
+		System.out.println("Segundo aluno cadastrado: "+ vetorAluno[1].getNome());
+
+	}
+
+}

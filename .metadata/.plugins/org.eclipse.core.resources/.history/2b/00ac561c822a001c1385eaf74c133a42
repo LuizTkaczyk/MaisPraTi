@@ -1,9 +1,0 @@
-package orientacaoObjetos9;
-
-public class Pares {
-	
-	public String retornaNros(int ini,int fim) {
-		return "";
-	}
-
-}

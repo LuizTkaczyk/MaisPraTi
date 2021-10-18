@@ -1,8 +1,0 @@
-package poo11;
-
-public class FuncIntegral {
-	public FuncIntegral (String nome, String email, double sal) {
-		
-	}
-
-}
